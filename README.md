@@ -1,5 +1,15 @@
 # Library App
 
+December 15, 2021 || Alchemy Code Lab || September 2021 Cohort
+<br>
+
+<hr>
+
+# _Walkthrough_
+
+1. `npm i`
+1.
+
 ## Demo
 
 [https://alchemy-react-library-app.netlify.app](https://alchemy-react-library-app.netlify.app)
@@ -16,7 +26,7 @@
 
 Your local library hired a developer to build an interface for their database of books. Unfortunately, the previous developer ended up taking another job while leaving the library app unfinished. Luckily, the views have been created. However, there's currently no way to navigate to the views as the app hasn't been configured with a router!
 
-Your task is to finish off the remaining work by adding the necessary routes to the `App.jsx` file,  as well as adding links to the different pages. You need to create the following routes:
+Your task is to finish off the remaining work by adding the necessary routes to the `App.js` file, as well as adding links to the different pages. You need to create the following routes:
 
 - `/books`
   - This page lists all the books in the library's database.
@@ -32,7 +42,7 @@ Take a look through the `views` directory to find the existing pages. Each book 
 - A user can click a link from the book detail page to go back to the list of books
 
 ### Rubric
- 
+
 | Task                                              | Points |
 | ------------------------------------------------- | ------ |
 | `/books` route                                    | 3      |
