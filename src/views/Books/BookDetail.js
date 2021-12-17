@@ -12,7 +12,12 @@ function BookDetail(props) {
 
   if (!book) return <h3>Loading book...</h3>;
 
-  return <Book book={book} showDetail />;
+  return (
+    <>
+      <a href="/">&larr;&larr; Back to Homepage</a>
+      <Book book={book} showDetail />
+    </>
+  );
 }
 
 export default BookDetail;
