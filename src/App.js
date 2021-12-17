@@ -8,14 +8,18 @@ function App() {
     <BrowserRouter>
       <main className="container">
         <h1>Library Catalog</h1>
-        <h2>Welcome to Dangalf&apos;s Library of Computer Science!</h2>
-        <p className="home">
-          Check out the amazing selection of books in our <a href="/books">catalog</a>.
-        </p>
+        <Switch>
+          <Route exact path="/">
+            <section>
+              <h2>Welcome to Dangalf&apos;s Library of Computer Science!</h2>
+              <p className="home">
+                Check out the amazing selection of books in our <a href="/books">catalog</a>.
+              </p>
+            </section>
+          </Route>
+          <Route exact path="/books" component={BookList} />
+        </Switch>
       </main>
-      <Switch>
-        <Route exact path="/books" component={BookList} />
-      </Switch>
     </BrowserRouter>
   );
 }
