@@ -1,5 +1,6 @@
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import BookList from './views/Books/BookList';
+import BookDetails from './views/Books/BookDetail';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             </section>
           </Route>
           <Route exact path="/books" component={BookList} />
+          <Route path="/books/:id" component={BookDetails} />
         </Switch>
       </main>
     </BrowserRouter>

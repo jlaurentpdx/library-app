@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import Book from '../../components/book/Book';
 import { getBookById } from '../../services/books';
 
-function BookDetail() {
-  const id = 1; // TODO: Use id from route
+function BookDetail(props) {
+  const id = props.match.params.id;
   const [book, setBook] = useState(null);
 
   useEffect(() => {
