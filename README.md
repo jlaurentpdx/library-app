@@ -1,14 +1,6 @@
 # Library App
 
 December 15, 2021 || Alchemy Code Lab || September 2021 Cohort
-<br>
-
-<hr>
-
-# _Walkthrough_
-
-1. `npm i`
-1.
 
 ## Demo
 
