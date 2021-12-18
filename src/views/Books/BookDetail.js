@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Book from '../../components/book/Book';
 import { getBookById } from '../../services/books';
 
@@ -14,7 +15,7 @@ function BookDetail(props) {
 
   return (
     <>
-      <a href="/">&larr;&larr; Back to Homepage</a>
+      <Link to="/">« Back to Homepage</Link>
       <Book book={book} showDetail />
     </>
   );

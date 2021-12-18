@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 import BookList from './views/Books/BookList';
 import BookDetails from './views/Books/BookDetail';
 import './App.css';
@@ -13,7 +13,7 @@ function App() {
             <section>
               <h2>Welcome to Dangalf&apos;s Library of Computer Science!</h2>
               <p className="home">
-                Check out the amazing selection of books in our <a href="/books">catalog</a>.
+                Check out the amazing selection of books in our <Link to="/books">catalog</Link>.
               </p>
             </section>
           </Route>
