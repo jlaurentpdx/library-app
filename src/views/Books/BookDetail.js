@@ -15,7 +15,7 @@ function BookDetail(props) {
 
   return (
     <>
-      <Link to="/">« Back to Homepage</Link>
+      <Link to="/books">« Back to Catalog</Link>
       <Book book={book} showDetail />
     </>
   );
